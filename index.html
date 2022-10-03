@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: center;
+        }
+
+        header img {
+            height: 134px;
+        }
+
+        header h1 {
+            font-size: 53px;
+            font-family: monospace;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            background-color: black;
+            height: 47px;
+            /* margin: 0px; */
+            width: 98vw;
+            margin-left: -21px;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin-left: 27px;
+        }
+
+        nav ul li button {
+            height: 32px;
+            width: 66px;
+        }
+
+        #home {
+            display: none;
+        }
+
+        #Add {
+            display: none;
+        }
+
+        #Add .container {
+            display: none;
+            height: 62vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #Add .container form {
+            width: 19vw;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        #update {
+            display: none;
+        }
+
+        #update .container {
+            display: none;
+            height: 62vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #update .container form {
+            width: 19vw;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="">
+        <div class="heading">
+            <h1>Professional Programmer</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><button onclick="home()">Home</button></li>
+            <li><button onclick="add()">Add</button></li>
+            <li><button onclick = "update()">Upadate</button></li>
+            <li><button>Delete</button></li>
+            <li><button>Logout</button></li>
+        </ul>
+    </nav>
+
+    <div id="home">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quisquam officia quis earum, omnis esse
+        voluptate, maxime obcaecati magnam voluptatibus iure? Impedit, harum soluta placeat repellat odit itaque.
+        Temporibus nam aliquam magni, sunt quo ipsam nemo obcaecati tempora optio eos quidem, quia inventore laborum
+        quam exercitationem omnis earum dolores maxime voluptatibus iusto possimus quod eaque eum minima. Earum optio
+        repellat maxime veniam natus magnam vel pariatur error nihil placeat inventore totam nisi ut beatae laborum ipsa
+        quia vitae, exercitationem eligendi unde obcaecati, dolores consequatur officia ullam. Ut itaque placeat
+        suscipit ducimus minima iure laborum laboriosam id inventore maiores. Eligendi, doloribus. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Excepturi ducimus ipsa aperiam illum architecto vitae amet, culpa vel
+        impedit, exercitationem alias nisi minima ipsam modi possimus, debitis nostrum quia dolor iure veritatis
+        reiciendis quas accusantium provident. Inventore, rerum totam aliquam nam facilis mollitia dolorem minus ad
+        odit, reprehenderit hic, nulla quae? Ullam rerum illum quo ad, illo, officia nihil facere reiciendis voluptatem
+        quidem unde velit architecto saepe corporis perspiciatis eos asperiores dolor. Recusandae error corporis sint,
+        itaque eaque, quam debitis voluptates voluptatum sunt, tempora placeat voluptas nisi ut ducimus? Totam odio,
+        aperiam excepturi dicta iure aliquid possimus autem harum debitis incidunt provident modi accusamus cupiditate
+        aspernatur neque optio dignissimos quidem hic labore aut repudiandae! Sit optio ratione dicta, magni veniam amet
+        laborum, suscipit molestias numquam iure nam ex nulla mollitia quaerat. Nemo animi quas sed, quaerat distinctio
+        esse tempore eligendi cupiditate suscipit pariatur sequi commodi. Est quod, veniam neque modi laudantium iure
+        tempora, quae facere tenetur voluptatem soluta quis deleniti adipisci eveniet ipsum eaque optio ipsam nobis
+        illum eum, rem atque minus sequi illo! Expedita alias iure, doloribus, sit deserunt assumenda vitae eos
+        voluptates dignissimos quaerat mollitia. Maiores nihil ipsam praesentium eius vel cum ex impedit, dignissimos
+        quae deleniti facere enim quam accusamus harum unde temporibus dolores cupiditate veritatis, dolore officiis
+        voluptatem tempora voluptate saepe? Quod nisi vitae amet natus architecto hic perspiciatis debitis eveniet!
+        Laborum impedit sapiente quibusdam dolore. Dolore optio cupiditate ipsum non enim ex voluptates corrupti modi?
+        Veritatis ut voluptates consequatur pariatur debitis tenetur voluptatem laudantium ad, eveniet recusandae
+        consequuntur nobis architecto minus, libero officiis neque saepe voluptas mollitia laboriosam consectetur.
+        Blanditiis voluptas tempore, iure voluptatem minus labore quasi perspiciatis modi aut cupiditate! Expedita odit
+        quae voluptatum unde harum ipsa omnis iste porro maiores, assumenda eligendi fugit eum doloremque qui repellat
+        debitis laudantium voluptates voluptatem. Quae commodi at est natus vitae rem eaque quidem odit odio eos ipsum
+        et dolorem impedit aliquam possimus ad, earum nihil voluptatum? Veniam, sed sequi. Sapiente doloremque
+        reprehenderit blanditiis rem consectetur veritatis ad recusandae corrupti delectus incidunt minima repellendus
+        quo quisquam nam odit, totam nihil perferendis quis saepe. Explicabo necessitatibus, magni sapiente maxime
+        minima voluptates. Impedit nulla animi tempora provident earum quibusdam voluptas corrupti aliquam libero amet
+        iste quos soluta temporibus dolore ullam est ipsum obcaecati deleniti sit, rerum molestias vitae autem dolor.
+        Saepe, praesentium? Corporis doloribus commodi tempore quibusdam hic voluptatum possimus atque praesentium
+        tempora velit consectetur, qui unde, culpa fugit fugiat eius dicta tenetur neque facere quo rerum, nobis aliquid
+        officiis illum? Sint veritatis facere nesciunt, deleniti ipsum similique laudantium fugiat? Voluptatibus, alias.
+        Id culpa incidunt enim quasi quidem, aut obcaecati quas iste itaque, saepe accusamus! Magnam vero maiores
+        deserunt sint omnis minus eos vitae quae magni, perspiciatis porro officia commodi in harum dolorem assumenda
+        molestiae. Odio in itaque alias error sint maiores dolores labore assumenda ab officiis illo quas corrupti odit
+        mollitia, cumque explicabo voluptate, repudiandae aperiam quod! Culpa est ratione iste soluta praesentium cumque
+        placeat voluptatibus aliquam, dicta dolor harum voluptatum ea esse veritatis voluptates quasi ad asperiores
+        ipsam corrupti. A, totam eos, esse accusantium ducimus, corrupti odit corporis reprehenderit molestiae
+        asperiores doloribus. Libero temporibus itaque ullam sed consequatur eius, odio quibusdam voluptas nobis? Unde
+        sunt dolorum pariatur modi, ea odit distinctio at ducimus qui quam eos? Velit rerum inventore unde dolor
+        quisquam corporis, vero earum laboriosam blanditiis accusamus qui nam, tempore aperiam consequatur in assumenda?
+        Vero delectus sit ducimus sed iure velit aut magnam atque consequatur, inventore eius adipisci, voluptas
+        doloribus beatae corrupti, vel libero esse cupiditate sapiente placeat labore sint quod. Unde consectetur eaque
+        est id repellat beatae praesentium? Accusantium earum inventore quas adipisci atque officia temporibus totam
+        sapiente minus, enim hic fugiat odio perspiciatis quisquam quibusdam vitae ipsam magni sint iusto. Repellat
+        consequuntur at obcaecati ipsum non vitae vero laboriosam nam beatae maxime quas doloremque aliquid similique,
+        sed officia eum quo hic excepturi laudantium possimus ipsam accusantium! Tenetur, temporibus deserunt, ipsum
+        officiis quis nisi aut quo nesciunt voluptas eos voluptatibus numquam repellendus inventore facilis? Fugiat
+        voluptatum saepe commodi iure facere, nesciunt eos earum sint eaque quibusdam repellat neque magni recusandae,
+        ratione enim, accusamus laborum. Dignissimos inventore sed amet cumque veritatis recusandae, tempore quas
+        incidunt enim! Ipsa fugiat, quibusdam maiores iure officia adipisci dicta? Magnam provident optio eos saepe
+        placeat, suscipit aperiam recusandae minima iusto similique aliquam deleniti amet eligendi omnis quisquam
+        voluptatum asperiores quod numquam totam officiis accusamus molestias? Optio dolores itaque nisi architecto
+        similique iure corrupti voluptatibus ab, repellat adipisci sunt, deleniti quo reprehenderit! Ipsam atque
+        excepturi ratione perspiciatis quod dolores hic maxime repellendus a nam architecto porro, molestias labore
+        repudiandae molestiae nemo reprehenderit, quam, aut dicta cupiditate maiores corporis eos. Sed minus at fugiat
+        tenetur nemo blanditiis libero dolorem error, enim molestias accusantium minima doloremque quisquam aut. Quia
+        placeat quod necessitatibus laboriosam quae corrupti exercitationem veritatis doloribus? Reprehenderit doloribus
+        earum perferendis cum, cumque nisi vel. Aspernatur fugit rerum officiis, enim inventore doloremque doloribus eos
+        veritatis exercitationem iste a id! Corporis saepe, pariatur corrupti sint assumenda earum sapiente accusantium
+        quia neque exercitationem id, voluptatem vitae totam dolores sunt necessitatibus, ratione perferendis! Similique
+        adipisci quae sint consectetur qui quidem reiciendis id, eveniet esse perferendis corporis laboriosam officia
+        sed rerum cumque rem eum quas cum ipsa porro? Sapiente rerum, commodi nam nihil possimus error beatae! Vero
+        reiciendis fugiat quos unde itaque magnam molestias inventore dignissimos maxime iste laboriosam nobis aliquid
+        nesciunt voluptate necessitatibus, perferendis fugit temporibus iusto ex ab ipsum. Est, eum natus explicabo modi
+        magnam blanditiis quibusdam excepturi soluta ipsam magni nulla fugiat accusantium dolorem ipsa nemo ullam
+        architecto eaque velit quisquam officia dolorum, tenetur harum officiis. Illum exercitationem vel rerum quae
+        officia quos nisi doloremque maxime hic ullam possimus inventore odio sequi, ex est minima non ducimus omnis
+        amet laborum? Nemo sit illum dolorem tempora magnam! Illo doloribus maiores totam voluptatem asperiores
+        recusandae ea esse. Hic ullam vero ea libero reiciendis repudiandae, officia numquam recusandae rem veritatis.
+        Qui corporis tempora vitae id possimus magnam, fugit, aut perspiciatis voluptate quis, provident amet ut magni
+        reiciendis excepturi officiis. Expedita labore maxime rem illo libero incidunt suscipit!
+    </div>
+
+    <div id="Add">
+        <div class="container">
+            <form action="">
+                <input type="text" placeholder="name">
+                <input type="text" placeholder="surname">
+                <input type="text" placeholder="mobile no ">
+                <input type="text" placeholder="address">
+                <input type="submit">
+
+            </form>
+        </div>
+
+    </div>
+
+
+    <div id="update">
+        <div class="container">
+            <form action="">
+                <input type="text" placeholder="name" value="Faisal">
+                <input type="text" placeholder="surname" value="Ansari">
+                <input type="text" placeholder="mobile no " value="9945690">
+                <input type="text" placeholder="address" value = "Nagpur">
+                <input type="submit">
+
+            </form>
+        </div>
+    </div>
+</body>
+
+
+
+<script>
+    Home =  document.getElementById("home");
+    Add = document.getElementById("Add");
+    Update = document.getElementById("update");
+
+
+   function  home(){
+        Home.style.display = "block";
+        Add.style.display = "none";
+        Update.style.display = "none";
+    }
+
+    function  add(){
+        Add.style.display = "block";
+        Home.style.display = "none";
+        Update.style.display = "none";
+    }
+
+    function  update(){
+        Update.style.display = "block";
+        Add.style.display = "none";
+        Home.style.display = "none";
+    }
+</script>
+</html>

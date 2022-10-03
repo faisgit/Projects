@@ -1,0 +1,36 @@
+body {
+    background : none ;
+    background:hsl(216, 12%, 8%);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+}
+
+.box {
+    width: 342px;
+    margin: 107px auto;
+    background: white;
+    padding: 16px;
+}
+
+.box form {
+    margin-top: 18px;
+}
+
+.form-control {
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn {
+    display: block;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
